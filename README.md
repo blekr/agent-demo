@@ -33,3 +33,7 @@ curl http://localhost:8080/show -d '{"Pid":26085}'
 curl http://localhost:8080/stop -d '{"Pid":26085}'
 
 ```
+# Issues
+- Fail to download package ```https://golang.org/x/sys/unix?go-get=1```
+
+If go get fails to download package ```https://golang.org/x/sys/unix?go-get=1``` because of the GFW, please manually download it and place it under correct directory.
